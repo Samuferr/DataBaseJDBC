@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class FactoryConnection {
 	public static Connection getConnection(){
 		try {
-			final String url = "jdbc:mysql://localhost";
+			final String url = "jdbc:mysql://localhost/curso_java";
 			final String usuario = "root";
 			final String senha = "12345678";
 			
